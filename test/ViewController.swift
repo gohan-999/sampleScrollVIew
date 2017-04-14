@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 //        var newImageView: UIImageView = UIImageView(frame: CGRect(x:0,y:contentViewConstHeight.constant, width:newImage1.size.width,height:300))
 //        print("____view frame___\(newImageView.frame)")
 //        contentView.addSubview(newImageView)
-//        contentViewConstHeight.constant += 300;
+        contentViewConstHeight.constant += 300;
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
