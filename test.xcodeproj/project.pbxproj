@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8705CF041EA4332600D1A9E7 /* xibTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8705CF031EA4332600D1A9E7 /* xibTest.xib */; };
+		8705CF071EA4460200D1A9E7 /* content_design.png in Resources */ = {isa = PBXBuildFile; fileRef = 8705CF051EA4460200D1A9E7 /* content_design.png */; };
+		8705CF081EA4460200D1A9E7 /* scroll_design.png in Resources */ = {isa = PBXBuildFile; fileRef = 8705CF061EA4460200D1A9E7 /* scroll_design.png */; };
 		877E13191EA022CC00993083 /* neko3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 877E13161EA022CC00993083 /* neko3.jpg */; };
 		877E131A1EA022CC00993083 /* neko2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 877E13171EA022CC00993083 /* neko2.jpg */; };
 		877E131B1EA022CC00993083 /* neko1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 877E13181EA022CC00993083 /* neko1.jpg */; };
@@ -42,6 +45,9 @@
 
 /* Begin PBXFileReference section */
 		1C9E69D639D3278B91AC0D50 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		8705CF031EA4332600D1A9E7 /* xibTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xibTest.xib; sourceTree = "<group>"; };
+		8705CF051EA4460200D1A9E7 /* content_design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content_design.png; sourceTree = "<group>"; };
+		8705CF061EA4460200D1A9E7 /* scroll_design.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scroll_design.png; sourceTree = "<group>"; };
 		877E13161EA022CC00993083 /* neko3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko3.jpg; sourceTree = "<group>"; };
 		877E13171EA022CC00993083 /* neko2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko2.jpg; sourceTree = "<group>"; };
 		877E13181EA022CC00993083 /* neko1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko1.jpg; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 		877E13151EA022AD00993083 /* img */ = {
 			isa = PBXGroup;
 			children = (
+				8705CF051EA4460200D1A9E7 /* content_design.png */,
+				8705CF061EA4460200D1A9E7 /* scroll_design.png */,
 				DE71E7931EA0B03000CAC665 /* sample2.png */,
 				DE71E7911EA0A2C500CAC665 /* sampl1.png */,
 				877E131C1EA027A600993083 /* neko4.jpg */,
@@ -153,6 +161,7 @@
 				87E3E92F1E9FC50D0044F7FD /* Assets.xcassets */,
 				87E3E9311E9FC50D0044F7FD /* LaunchScreen.storyboard */,
 				87E3E9341E9FC50D0044F7FD /* Info.plist */,
+				8705CF031EA4332600D1A9E7 /* xibTest.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -289,11 +298,14 @@
 				877E131A1EA022CC00993083 /* neko2.jpg in Resources */,
 				877E13191EA022CC00993083 /* neko3.jpg in Resources */,
 				DE71E7921EA0A2C500CAC665 /* sampl1.png in Resources */,
+				8705CF081EA4460200D1A9E7 /* scroll_design.png in Resources */,
+				8705CF071EA4460200D1A9E7 /* content_design.png in Resources */,
 				87E3E9331E9FC50D0044F7FD /* LaunchScreen.storyboard in Resources */,
 				87E3E9301E9FC50D0044F7FD /* Assets.xcassets in Resources */,
 				87E3E92E1E9FC50D0044F7FD /* Main.storyboard in Resources */,
 				877E131D1EA027A600993083 /* neko4.jpg in Resources */,
 				DE71E7941EA0B03000CAC665 /* sample2.png in Resources */,
+				8705CF041EA4332600D1A9E7 /* xibTest.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
